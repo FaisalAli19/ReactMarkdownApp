@@ -17,10 +17,10 @@ module.exports = {
     resolve: {
         modules: [
             "node_modules",
-            path.resolve(__dirname)
+            "./App/components"
         ],
         alias:{
-            
+
         },
         extensions: [" ", ".js", ".jsx"]
     },
@@ -28,6 +28,11 @@ module.exports = {
         loaders: [
             {test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"}
         ]
+    },
+    devServer: {
+        contentBase: path.join(__dirname, "dist"),
+        port: 9000,
+        stats: "errors-only"
     },
     plugins: [
         new webpack.ProvidePlugin({
