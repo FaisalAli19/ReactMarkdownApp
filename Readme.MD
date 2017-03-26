@@ -2,11 +2,19 @@
 
 This is a react markdown app which convert github markdown to html text.
 
-Live version here:
+Live version here: https://reactmarkdownapp.herokuapp.com/
+
+## Skills Used
+
+* HTML
+* CSS (Sass)
+* ReactJs
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development purposes.
+
+Clone the repository from here: https://github.com/FaisalAli19/ReactMarkdownApp.git or Download the Zip file to your machine.
 
 ### Prerequisites
 
@@ -21,19 +29,19 @@ NPM
 
 A step by step series of examples that tell you have to get a development env running
 
-Install dependencies
+Installing dependencies
 
 ```
 npm install
 ```
 
-Run server
+Running server
 
 ```
 npm start
 ```
 
-Run webpack dev server
+Running webpack dev server
 
 ```
 npm run dev
@@ -41,17 +49,13 @@ npm run dev
 
 ## Built With
 
-* [React]() -
-* [Webpack]() -
-* [Babel]() -
-* [Express]() -
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* [React](https://facebook.github.io/react/) - Created by Facebook Team.
+* [Marked](https://github.com/chjj/marked) - Convert Plain text to html syntax.
+* [Webpack](https://webpack.github.io/) - Used to bundle all the JavaScript file.
+* [Babel](https://babeljs.io/) - Used to convert Jsx syntax.
+* [Express](https://expressjs.com/) - Used as a server.
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Thanks to [freecodecamp](https://www.freecodecamp.com) for project.
+* Thanks to [FontAwesome](http://fontawesome.io/) for Icons.
